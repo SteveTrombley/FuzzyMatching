@@ -1,0 +1,11 @@
+framework module StevesFuzzyAdaptation {
+  umbrella header "StevesFuzzyAdaptation.h"
+
+  export *
+  module * { export * }
+}
+
+module StevesFuzzyAdaptation.Swift {
+    header "StevesFuzzyAdaptation-Swift.h"
+    requires objc
+}
